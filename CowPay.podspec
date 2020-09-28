@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CowPay"
-  spec.version      = "2.2"
+  spec.version      = "2.1"
   spec.summary      = "ACOWPAY is a premium payment technology."
 
   spec.description  = "ACOWPAY is a premium payment technology enabler dedicated to helping businesses transform their operation collecting , splitting , and disbursing money digitally!"
@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/cowpay/ios_sdk.git" }
 
   #spec.source_files  = "CowPay/Frameworks/CowPay.framework"
+  
   spec.vendored_frameworks = 'CowPay/CowPay.framework'
 
 
