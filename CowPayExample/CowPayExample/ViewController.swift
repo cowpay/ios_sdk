@@ -11,8 +11,8 @@ import CowPay
 class ViewController: UIViewController {
 
     let cowPaySdk = CowPaySDK()
-    let apiMerchantCode = "dev1212"
-    let apiMerchantHashKey = "dev1212"
+    let apiMerchantCode = ""
+    let apiMerchantHashKey = ""
     let billingData = ["customer_mobile":"01234567891",
                        "customer_email":"example@gmail.com",
                        "customer_merchant_profile_id":"15",

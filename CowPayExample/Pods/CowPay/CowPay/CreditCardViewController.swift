@@ -39,6 +39,7 @@ class VisaViewController: UIViewController {
     var screenTypeSave = false
     var baseUrl = ""
     var saveCard = false
+    let bundle = Bundle(for: VisaViewController.self)
     
     override func viewDidLoad() {
         super.viewDidLoad()

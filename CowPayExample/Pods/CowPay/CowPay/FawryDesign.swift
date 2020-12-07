@@ -11,7 +11,8 @@ import UIKit
 extension FawryViewController {
     
     func initBackBtn() {
-        btnDismiss.setImage(dismissNav ? #imageLiteral(resourceName: "cowPayClose") : #imageLiteral(resourceName: "cowPayBack"), for: .normal)
+//        btnDismiss.setImage(dismissNav ? #imageLiteral(resourceName: "cowPayClose") : #imageLiteral(resourceName: "cowPayBack"), for: .normal)
+        btnDismiss.setImage(dismissNav ? UIImage.init(named: "close", in: bundle, compatibleWith: nil) : UIImage.init(named: "back", in: bundle, compatibleWith: nil), for: .normal)
         btnDismiss.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissNavFunc)))
         view.addSubview(btnDismiss)
         
@@ -32,7 +33,8 @@ extension FawryViewController {
     }
     
     func initPowerdBy() {
-        imageViewPowerdBy.image = #imageLiteral(resourceName: "cowPayLogo")
+//        imageViewPowerdBy.image = #imageLiteral(resourceName: "cowPayLogo")
+        imageViewPowerdBy.image = UIImage.init(named: "logo", in: bundle, compatibleWith: nil)
         imageViewPowerdBy.contentMode = .scaleAspectFit
         view.addSubview(imageViewPowerdBy)
         
@@ -55,7 +57,8 @@ extension FawryViewController {
     }
     
     func initFawryImage() {
-        imageViewFawry.image = #imageLiteral(resourceName: "cowPayFawry")
+//        imageViewFawry.image = #imageLiteral(resourceName: "cowPayFawry")
+        imageViewFawry.image = UIImage.init(named: "fawry", in: bundle, compatibleWith: nil)
         view.addSubview(imageViewFawry)
         
         imageViewFawry.translatesAutoresizingMaskIntoConstraints = false
@@ -106,7 +109,8 @@ extension FawryViewController {
         viewSuccess.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
         let backgroundImage = UIImageView()
-        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_bg")
+//        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_bg")
+        backgroundImage.image = UIImage.init(named: "fawry_bg", in: bundle, compatibleWith: nil)
         backgroundImage.isUserInteractionEnabled = true
         backgroundImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(copyCode)))
         viewSuccess.addSubview(backgroundImage)
@@ -150,7 +154,8 @@ extension FawryViewController {
         labelCopy.centerXAnchor.constraint(equalTo: backgroundImage.centerXAnchor, constant: 8).isActive = true
         
         let imageViewCopy = UIImageView()
-        imageViewCopy.image = #imageLiteral(resourceName: "cowPayInfo")
+//        imageViewCopy.image = #imageLiteral(resourceName: "cowPayInfo")
+        imageViewCopy.image = UIImage.init(named: "info", in: bundle, compatibleWith: nil)
         viewSuccess.addSubview(imageViewCopy)
         
         imageViewCopy.translatesAutoresizingMaskIntoConstraints = false
@@ -221,7 +226,8 @@ extension FawryViewController {
         viewError.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
         let backgroundImage = UIImageView()
-        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_error_bg")
+//        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_error_bg")
+        backgroundImage.image = UIImage.init(named: "fawry_error_bg", in: bundle, compatibleWith: nil)
         viewError.addSubview(backgroundImage)
         
         backgroundImage.translatesAutoresizingMaskIntoConstraints = false
@@ -247,7 +253,8 @@ extension FawryViewController {
         btnRetry.setTitleColor(.SDKErrorColor, for: .normal)
         btnRetry.backgroundColor = .clear
         btnRetry.setTitle("Try again", for: .normal)
-        btnRetry.setImage(#imageLiteral(resourceName: "cowPayRepeat"), for: .normal)
+//        btnRetry.setImage(#imageLiteral(resourceName: "cowPayRepeat"), for: .normal)
+        btnRetry.setImage(UIImage.init(named: "repeat", in: bundle, compatibleWith: nil), for: .normal)
         btnRetry.titleEdgeInsets = UIEdgeInsets(top: 0, left: 4, bottom: 0, right: 0)
         btnRetry.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 4)
         btnRetry.titleLabel!.font = UIFont.systemFont(ofSize: 14.0)

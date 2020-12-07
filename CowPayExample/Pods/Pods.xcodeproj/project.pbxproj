@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017466B22F518EBB34C71C3ABFA5F1F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0B5E9F33B8A660B53EA7D523B42EA41F /* visa_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2F2F3A2A9B491D6B51F00BF3F7D700 /* visa_loading.png */; };
 		1A5741EF24CAF0EC3FBA3776A6DF0B4D /* Pods-CowPayExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FC9BF9D60144CBD80E3789BDB587E4 /* Pods-CowPayExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20081D5F4903BDDDB563DA852C886CFB /* FawryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5B183AA462742922C44FA9018B648 /* FawryDesign.swift */; };
+		38FD30DCA80A555374BADA06A3A7A1FD /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585FDBEDB198847FC7EA2417047F6A7 /* CreditCardViewController.swift */; };
 		3D607F843D0C3A5444AED5205C834C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3E07338A11A42C4ABCC740515930E264 /* FawryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B80F3D549B72E1211D2296CCE8634 /* FawryViewController.swift */; };
-		500C831B56AEF336A3A9CF22A76047CC /* CowPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB6B46D3EC812A6BAE9BCC27D75F2F1 /* CowPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		723802B499B46F48EA16B37C2CE3C702 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3C730DC6ACC466A742F937057368F /* CreditCardViewController.swift */; };
-		7A46D595DCA1847276234B84B6CC79D3 /* CowPaySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F4112A0904F96653AE42C9B5E8C7D /* CowPaySDK.swift */; };
+		3F013076182A5F079A28EDFBD242CDA6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BCC7EBAC3EBAC5C101D61AC13FB095 /* logo.png */; };
+		57523D71208980E641000B9CBEF4E703 /* CreditCardDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908F6FA10E2366CE5BD80501C3E2A09 /* CreditCardDesign.swift */; };
+		68701F5CAA9214B99EB4B9445BA27A2E /* not_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 233C7DF8657D2986A2CC2749EF09B765 /* not_save.png */; };
+		6B7A617EF2A1A962A3543C7F9409107F /* CowPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEEC4CF417BDED1F281F6EA01514043 /* CowPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82D492E6F38187D3A289AB1F28CE656D /* Pods-CowPayExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BCEAC45662499D98BE660DE8AD9181 /* Pods-CowPayExample-dummy.m */; };
-		AFA58BEBD33E3C8249E1C78067824A38 /* SelectMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7ED295833D37A221811A9F574934 /* SelectMethodViewController.swift */; };
-		BA13E0C5C0447E50B0749C50C966065F /* CowPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29E8F716F4BBD382D38D8574251D5B /* CowPay-dummy.m */; };
-		CED67405472CD3A7C56F48E11835036B /* CreditCardDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A80DEEB56E83B4230D3DA3CF2A542 /* CreditCardDesign.swift */; };
-		E4F8CA46E99CE2264A51922CB20A141C /* CowPayColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545F6C09C282E871FC6C9ED82054187 /* CowPayColorExtension.swift */; };
+		8CD82C8BCB0F6C12F952FBA3CFDDBEF5 /* fawry.png in Resources */ = {isa = PBXBuildFile; fileRef = 351DDB467E9C10ECE55D519E8D62FD5A /* fawry.png */; };
+		99E22E754388EB038DAF83D2A3A45E04 /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 225D08239A27DBE6B22F104A6767AAD5 /* repeat.png */; };
+		A31CCF70EC5B47DACFBF5E193398C7AC /* FawryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B7E40D741DD2C28C2FC760E7E7791 /* FawryViewController.swift */; };
+		A5A79D61CD2B40987E5523F736802849 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = A613DE657FDDABD781B4DD52E439D8E6 /* save.png */; };
+		AE7A87A40D59881231AD482A23F65209 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = C291CDA6F5E9B101D66355372B9CD1C9 /* close.png */; };
+		AEE58472853DBDC8F49C52F2F328896B /* visa_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B3588C15DBE0383A8CF88B8701D6B7 /* visa_list.png */; };
+		B5EA7AE1F997EB68FB671C0D53AC4575 /* fawry_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD85CBF7AE27F3D5134BCCECE957DC9 /* fawry_bg.png */; };
+		B5F9C96B1791460FF1C911568E8082BF /* visa_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A792D2C97D28BE1937C259D8850612 /* visa_error.png */; };
+		BCE7E903394F6768379D4E0121CF84B3 /* visa_accepted.png in Resources */ = {isa = PBXBuildFile; fileRef = 9694F70BD8E00F437A327211BF41320B /* visa_accepted.png */; };
+		C41CC1307B96C573A1A5DF99EFE1FF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C750E83F82DD81383675D85079C09D88 /* FawryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56C21E1369BFFDA7077BF0B659E99F /* FawryDesign.swift */; };
+		CC927D2C098229E9DF85CB42C6135768 /* CowPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F065E6AFD63F08EBEF122DC259F27346 /* CowPay-dummy.m */; };
+		D6BD3AC108F0207AF227BB7964CB2C95 /* fawry_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF1F4461BDFE3ED526B69B3F151E21 /* fawry_list.png */; };
+		D82595F4D491FF0366BFAB253F1C2B67 /* SelectMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026135EBB93AA6678FE10C925BE0496A /* SelectMethodViewController.swift */; };
+		E33706176303F4ECA7B15BB87539ED65 /* CowPayColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B36EB73B132775E322ECCE0B71A04D /* CowPayColorExtension.swift */; };
+		E5BD9821E167F8B57E22D78182C0F02E /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 7454D65FEF87FFF2651C786669426193 /* info.png */; };
+		E70EA389F0C24EBDC3546F0D90BC3209 /* CowPaySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32037CDB3DE240C04F1E232EC743BE44 /* CowPaySDK.swift */; };
+		EA523BDCBAFAD31581184068312B4AA5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0D04592B25FCB4E495BF767CF059E5 /* back.png */; };
+		EB9D51E5C7845D2E91E788D5F90478B4 /* fawry_error_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D2BE6902406D4FA0811F694531EDE4 /* fawry_error_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27A063ECBD4E366305489A318BD2542E /* PBXContainerItemProxy */ = {
+		04EFFFB552F231469F98799814E28BFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,41 +48,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1336917C908E4A1492AED3D585ACF4BB /* CowPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CowPay.debug.xcconfig; sourceTree = "<group>"; };
-		190F4112A0904F96653AE42C9B5E8C7D /* CowPaySDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CowPaySDK.swift; path = CowPay/CowPaySDK.swift; sourceTree = "<group>"; };
-		1DB6B46D3EC812A6BAE9BCC27D75F2F1 /* CowPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CowPay-umbrella.h"; sourceTree = "<group>"; };
+		01BCC7EBAC3EBAC5C101D61AC13FB095 /* logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = logo.png; path = CowPay/images/logo.png; sourceTree = "<group>"; };
+		026135EBB93AA6678FE10C925BE0496A /* SelectMethodViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectMethodViewController.swift; path = CowPay/SelectMethodViewController.swift; sourceTree = "<group>"; };
+		225D08239A27DBE6B22F104A6767AAD5 /* repeat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = repeat.png; path = CowPay/images/repeat.png; sourceTree = "<group>"; };
 		229DFB72C5432E7566CDEB0ED92BE257 /* Pods_CowPayExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CowPayExample.framework; path = "Pods-CowPayExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BCEAC45662499D98BE660DE8AD9181 /* Pods-CowPayExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CowPayExample-dummy.m"; sourceTree = "<group>"; };
+		233C7DF8657D2986A2CC2749EF09B765 /* not_save.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = not_save.png; path = CowPay/images/not_save.png; sourceTree = "<group>"; };
+		294BADF4F322B6BF1F9861CE79B7B896 /* CowPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CowPay-prefix.pch"; sourceTree = "<group>"; };
+		2FB9FCE77CB08BDAE9B3BDBB5D5932B2 /* CowPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CowPay.modulemap; sourceTree = "<group>"; };
+		32037CDB3DE240C04F1E232EC743BE44 /* CowPaySDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CowPaySDK.swift; path = CowPay/CowPaySDK.swift; sourceTree = "<group>"; };
+		351DDB467E9C10ECE55D519E8D62FD5A /* fawry.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fawry.png; path = CowPay/images/fawry.png; sourceTree = "<group>"; };
+		41B3588C15DBE0383A8CF88B8701D6B7 /* visa_list.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visa_list.png; path = CowPay/images/visa_list.png; sourceTree = "<group>"; };
 		42A14E12D113E1E27E324F3305805381 /* Pods-CowPayExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CowPayExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		44FC9BF9D60144CBD80E3789BDB587E4 /* Pods-CowPayExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CowPayExample-umbrella.h"; sourceTree = "<group>"; };
-		5573E6EDAAC95A1482D1AD314519B601 /* CowPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CowPay.release.xcconfig; sourceTree = "<group>"; };
+		4BBF1F4461BDFE3ED526B69B3F151E21 /* fawry_list.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fawry_list.png; path = CowPay/images/fawry_list.png; sourceTree = "<group>"; };
 		5A58941F29671F86A85519DFE3C08E17 /* CowPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CowPay.framework; path = CowPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEEC4CF417BDED1F281F6EA01514043 /* CowPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CowPay-umbrella.h"; sourceTree = "<group>"; };
 		60D47DE2FBC925CF677F07F6AEC560C3 /* Pods-CowPayExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CowPayExample.release.xcconfig"; sourceTree = "<group>"; };
-		719A80DEEB56E83B4230D3DA3CF2A542 /* CreditCardDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardDesign.swift; path = CowPay/CreditCardDesign.swift; sourceTree = "<group>"; };
+		674FE794E8796DE113F5A59642E2DBC3 /* CowPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CowPay.release.xcconfig; sourceTree = "<group>"; };
+		71A792D2C97D28BE1937C259D8850612 /* visa_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visa_error.png; path = CowPay/images/visa_error.png; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85F5B183AA462742922C44FA9018B648 /* FawryDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FawryDesign.swift; path = CowPay/FawryDesign.swift; sourceTree = "<group>"; };
+		7454D65FEF87FFF2651C786669426193 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = info.png; path = CowPay/images/info.png; sourceTree = "<group>"; };
+		7585FDBEDB198847FC7EA2417047F6A7 /* CreditCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardViewController.swift; path = CowPay/CreditCardViewController.swift; sourceTree = "<group>"; };
+		842F7657BCE7BDE46ADA5CF3ED592F9F /* CowPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CowPay-Info.plist"; sourceTree = "<group>"; };
+		8833BA9AE7C2852868CE45ABC2C95FDC /* CowPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CowPay.debug.xcconfig; sourceTree = "<group>"; };
 		8E8AEAC5E364B2E34C5E3D2F8408AFFF /* Pods-CowPayExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CowPayExample.modulemap"; sourceTree = "<group>"; };
+		9694F70BD8E00F437A327211BF41320B /* visa_accepted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visa_accepted.png; path = CowPay/images/visa_accepted.png; sourceTree = "<group>"; };
+		9908F6FA10E2366CE5BD80501C3E2A09 /* CreditCardDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardDesign.swift; path = CowPay/CreditCardDesign.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD29E8F716F4BBD382D38D8574251D5B /* CowPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CowPay-dummy.m"; sourceTree = "<group>"; };
-		BBA3C730DC6ACC466A742F937057368F /* CreditCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardViewController.swift; path = CowPay/CreditCardViewController.swift; sourceTree = "<group>"; };
+		9E2F2F3A2A9B491D6B51F00BF3F7D700 /* visa_loading.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visa_loading.png; path = CowPay/images/visa_loading.png; sourceTree = "<group>"; };
+		9E6B7E40D741DD2C28C2FC760E7E7791 /* FawryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FawryViewController.swift; path = CowPay/FawryViewController.swift; sourceTree = "<group>"; };
+		A613DE657FDDABD781B4DD52E439D8E6 /* save.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = save.png; path = CowPay/images/save.png; sourceTree = "<group>"; };
+		A6B36EB73B132775E322ECCE0B71A04D /* CowPayColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CowPayColorExtension.swift; path = CowPay/CowPayColorExtension.swift; sourceTree = "<group>"; };
+		AA0D04592B25FCB4E495BF767CF059E5 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = back.png; path = CowPay/images/back.png; sourceTree = "<group>"; };
+		AC56C21E1369BFFDA7077BF0B659E99F /* FawryDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FawryDesign.swift; path = CowPay/FawryDesign.swift; sourceTree = "<group>"; };
+		AFD85CBF7AE27F3D5134BCCECE957DC9 /* fawry_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fawry_bg.png; path = CowPay/images/fawry_bg.png; sourceTree = "<group>"; };
+		C291CDA6F5E9B101D66355372B9CD1C9 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = CowPay/images/close.png; sourceTree = "<group>"; };
 		C43BCE085D409D23077304D0366CEE28 /* Pods-CowPayExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CowPayExample.debug.xcconfig"; sourceTree = "<group>"; };
-		D6C2FDC945618D0CB1B461C6765D0901 /* CowPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CowPay.modulemap; sourceTree = "<group>"; };
-		DCD15D3826C491B8495F6A91E9D0D041 /* CowPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CowPay-prefix.pch"; sourceTree = "<group>"; };
 		DE498AD40407779EA4964B6B84024F40 /* Pods-CowPayExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CowPayExample-frameworks.sh"; sourceTree = "<group>"; };
-		F50B80F3D549B72E1211D2296CCE8634 /* FawryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FawryViewController.swift; path = CowPay/FawryViewController.swift; sourceTree = "<group>"; };
-		F545F6C09C282E871FC6C9ED82054187 /* CowPayColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CowPayColorExtension.swift; path = CowPay/CowPayColorExtension.swift; sourceTree = "<group>"; };
-		F7EA7ED295833D37A221811A9F574934 /* SelectMethodViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectMethodViewController.swift; path = CowPay/SelectMethodViewController.swift; sourceTree = "<group>"; };
-		FF5CBF52B43F814895E439F934CF8150 /* CowPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CowPay-Info.plist"; sourceTree = "<group>"; };
+		F065E6AFD63F08EBEF122DC259F27346 /* CowPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CowPay-dummy.m"; sourceTree = "<group>"; };
+		F3D2BE6902406D4FA0811F694531EDE4 /* fawry_error_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fawry_error_bg.png; path = CowPay/images/fawry_error_bg.png; sourceTree = "<group>"; };
 		FF5FB6EDCA808A9D3C21F57A5709EC80 /* Pods-CowPayExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CowPayExample-Info.plist"; sourceTree = "<group>"; };
 		FFA240268FE29D569605FEA95B6B47C8 /* Pods-CowPayExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CowPayExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25DF164FC3A62F9B95FF2055E3301DDB /* Frameworks */ = {
+		EED03C85598F88EFCF14E38ABBE256E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017466B22F518EBB34C71C3ABFA5F1F9 /* Foundation.framework in Frameworks */,
+				C41CC1307B96C573A1A5DF99EFE1FF93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155BFC5C55410F85317C013C0A3C4D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9001DE6DEF43F5BECF311EE94EADA797 /* CowPay */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3421B215FC459B19BDBB200433646C36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0D04592B25FCB4E495BF767CF059E5 /* back.png */,
+				C291CDA6F5E9B101D66355372B9CD1C9 /* close.png */,
+				351DDB467E9C10ECE55D519E8D62FD5A /* fawry.png */,
+				AFD85CBF7AE27F3D5134BCCECE957DC9 /* fawry_bg.png */,
+				F3D2BE6902406D4FA0811F694531EDE4 /* fawry_error_bg.png */,
+				4BBF1F4461BDFE3ED526B69B3F151E21 /* fawry_list.png */,
+				7454D65FEF87FFF2651C786669426193 /* info.png */,
+				01BCC7EBAC3EBAC5C101D61AC13FB095 /* logo.png */,
+				233C7DF8657D2986A2CC2749EF09B765 /* not_save.png */,
+				225D08239A27DBE6B22F104A6767AAD5 /* repeat.png */,
+				A613DE657FDDABD781B4DD52E439D8E6 /* save.png */,
+				9694F70BD8E00F437A327211BF41320B /* visa_accepted.png */,
+				71A792D2C97D28BE1937C259D8850612 /* visa_error.png */,
+				41B3588C15DBE0383A8CF88B8701D6B7 /* visa_list.png */,
+				9E2F2F3A2A9B491D6B51F00BF3F7D700 /* visa_loading.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3F78DE9A0377B61BB58E08642BD56091 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,22 +149,6 @@
 				229DFB72C5432E7566CDEB0ED92BE257 /* Pods_CowPayExample.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4F7C116FD71209E11A4C9F4EA83CAF49 /* CowPay */ = {
-			isa = PBXGroup;
-			children = (
-				F545F6C09C282E871FC6C9ED82054187 /* CowPayColorExtension.swift */,
-				190F4112A0904F96653AE42C9B5E8C7D /* CowPaySDK.swift */,
-				719A80DEEB56E83B4230D3DA3CF2A542 /* CreditCardDesign.swift */,
-				BBA3C730DC6ACC466A742F937057368F /* CreditCardViewController.swift */,
-				85F5B183AA462742922C44FA9018B648 /* FawryDesign.swift */,
-				F50B80F3D549B72E1211D2296CCE8634 /* FawryViewController.swift */,
-				F7EA7ED295833D37A221811A9F574934 /* SelectMethodViewController.swift */,
-				CED653FEEFD76AE2F24137E37DD2B291 /* Support Files */,
-			);
-			name = CowPay;
-			path = CowPay;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -140,16 +184,33 @@
 			path = "Target Support Files/Pods-CowPayExample";
 			sourceTree = "<group>";
 		};
-		CED653FEEFD76AE2F24137E37DD2B291 /* Support Files */ = {
+		9001DE6DEF43F5BECF311EE94EADA797 /* CowPay */ = {
 			isa = PBXGroup;
 			children = (
-				D6C2FDC945618D0CB1B461C6765D0901 /* CowPay.modulemap */,
-				AD29E8F716F4BBD382D38D8574251D5B /* CowPay-dummy.m */,
-				FF5CBF52B43F814895E439F934CF8150 /* CowPay-Info.plist */,
-				DCD15D3826C491B8495F6A91E9D0D041 /* CowPay-prefix.pch */,
-				1DB6B46D3EC812A6BAE9BCC27D75F2F1 /* CowPay-umbrella.h */,
-				1336917C908E4A1492AED3D585ACF4BB /* CowPay.debug.xcconfig */,
-				5573E6EDAAC95A1482D1AD314519B601 /* CowPay.release.xcconfig */,
+				A6B36EB73B132775E322ECCE0B71A04D /* CowPayColorExtension.swift */,
+				32037CDB3DE240C04F1E232EC743BE44 /* CowPaySDK.swift */,
+				9908F6FA10E2366CE5BD80501C3E2A09 /* CreditCardDesign.swift */,
+				7585FDBEDB198847FC7EA2417047F6A7 /* CreditCardViewController.swift */,
+				AC56C21E1369BFFDA7077BF0B659E99F /* FawryDesign.swift */,
+				9E6B7E40D741DD2C28C2FC760E7E7791 /* FawryViewController.swift */,
+				026135EBB93AA6678FE10C925BE0496A /* SelectMethodViewController.swift */,
+				3421B215FC459B19BDBB200433646C36 /* Resources */,
+				9BC734F71D58183F186BEEA9D431DFC2 /* Support Files */,
+			);
+			name = CowPay;
+			path = CowPay;
+			sourceTree = "<group>";
+		};
+		9BC734F71D58183F186BEEA9D431DFC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FCE77CB08BDAE9B3BDBB5D5932B2 /* CowPay.modulemap */,
+				F065E6AFD63F08EBEF122DC259F27346 /* CowPay-dummy.m */,
+				842F7657BCE7BDE46ADA5CF3ED592F9F /* CowPay-Info.plist */,
+				294BADF4F322B6BF1F9861CE79B7B896 /* CowPay-prefix.pch */,
+				5CEEC4CF417BDED1F281F6EA01514043 /* CowPay-umbrella.h */,
+				8833BA9AE7C2852868CE45ABC2C95FDC /* CowPay.debug.xcconfig */,
+				674FE794E8796DE113F5A59642E2DBC3 /* CowPay.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CowPay";
@@ -160,18 +221,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CFA4CE8DC87453F8395AAC192A83C4B8 /* Pods */,
+				155BFC5C55410F85317C013C0A3C4D50 /* Pods */,
 				3F78DE9A0377B61BB58E08642BD56091 /* Products */,
 				59D394145AEF471914ACB1F402B2E175 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFA4CE8DC87453F8395AAC192A83C4B8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F7C116FD71209E11A4C9F4EA83CAF49 /* CowPay */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -193,11 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E72BBFAFB8307512BF69403273E32B77 /* Headers */ = {
+		DCEE0CD012F2D5B9CF3274B378A0281F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500C831B56AEF336A3A9CF22A76047CC /* CowPay-umbrella.h in Headers */,
+				6B7A617EF2A1A962A3543C7F9409107F /* CowPay-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		2AEAB38F8CAE210F1D676B89EEBC7C45 /* CowPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD06119BAB5139813F81C0EE866242F6 /* Build configuration list for PBXNativeTarget "CowPay" */;
+			buildConfigurationList = 5DB47D12DCFA36FBDCBBCD7F5A2E7914 /* Build configuration list for PBXNativeTarget "CowPay" */;
 			buildPhases = (
-				E72BBFAFB8307512BF69403273E32B77 /* Headers */,
-				A0B0044721F485EACB02806A183532F3 /* Sources */,
-				25DF164FC3A62F9B95FF2055E3301DDB /* Frameworks */,
-				515729BC49171792FDC1310F001EEEF8 /* Resources */,
+				DCEE0CD012F2D5B9CF3274B378A0281F /* Headers */,
+				4393C0EDD944766AA0652504227C0D5E /* Sources */,
+				EED03C85598F88EFCF14E38ABBE256E9 /* Frameworks */,
+				822674FDB3493BD78A2B1ADE31A31355 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3EC0EA1D0E7C994BF971DB388FA5E55C /* PBXTargetDependency */,
+				5EC350B066F4AFB41690428539DBB1A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-CowPayExample";
 			productName = "Pods-CowPayExample";
@@ -270,10 +323,25 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		515729BC49171792FDC1310F001EEEF8 /* Resources */ = {
+		822674FDB3493BD78A2B1ADE31A31355 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA523BDCBAFAD31581184068312B4AA5 /* back.png in Resources */,
+				AE7A87A40D59881231AD482A23F65209 /* close.png in Resources */,
+				8CD82C8BCB0F6C12F952FBA3CFDDBEF5 /* fawry.png in Resources */,
+				B5EA7AE1F997EB68FB671C0D53AC4575 /* fawry_bg.png in Resources */,
+				EB9D51E5C7845D2E91E788D5F90478B4 /* fawry_error_bg.png in Resources */,
+				D6BD3AC108F0207AF227BB7964CB2C95 /* fawry_list.png in Resources */,
+				E5BD9821E167F8B57E22D78182C0F02E /* info.png in Resources */,
+				3F013076182A5F079A28EDFBD242CDA6 /* logo.png in Resources */,
+				68701F5CAA9214B99EB4B9445BA27A2E /* not_save.png in Resources */,
+				99E22E754388EB038DAF83D2A3A45E04 /* repeat.png in Resources */,
+				A5A79D61CD2B40987E5523F736802849 /* save.png in Resources */,
+				BCE7E903394F6768379D4E0121CF84B3 /* visa_accepted.png in Resources */,
+				B5F9C96B1791460FF1C911568E8082BF /* visa_error.png in Resources */,
+				AEE58472853DBDC8F49C52F2F328896B /* visa_list.png in Resources */,
+				0B5E9F33B8A660B53EA7D523B42EA41F /* visa_loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,18 +355,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0B0044721F485EACB02806A183532F3 /* Sources */ = {
+		4393C0EDD944766AA0652504227C0D5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA13E0C5C0447E50B0749C50C966065F /* CowPay-dummy.m in Sources */,
-				E4F8CA46E99CE2264A51922CB20A141C /* CowPayColorExtension.swift in Sources */,
-				7A46D595DCA1847276234B84B6CC79D3 /* CowPaySDK.swift in Sources */,
-				CED67405472CD3A7C56F48E11835036B /* CreditCardDesign.swift in Sources */,
-				723802B499B46F48EA16B37C2CE3C702 /* CreditCardViewController.swift in Sources */,
-				20081D5F4903BDDDB563DA852C886CFB /* FawryDesign.swift in Sources */,
-				3E07338A11A42C4ABCC740515930E264 /* FawryViewController.swift in Sources */,
-				AFA58BEBD33E3C8249E1C78067824A38 /* SelectMethodViewController.swift in Sources */,
+				CC927D2C098229E9DF85CB42C6135768 /* CowPay-dummy.m in Sources */,
+				E33706176303F4ECA7B15BB87539ED65 /* CowPayColorExtension.swift in Sources */,
+				E70EA389F0C24EBDC3546F0D90BC3209 /* CowPaySDK.swift in Sources */,
+				57523D71208980E641000B9CBEF4E703 /* CreditCardDesign.swift in Sources */,
+				38FD30DCA80A555374BADA06A3A7A1FD /* CreditCardViewController.swift in Sources */,
+				C750E83F82DD81383675D85079C09D88 /* FawryDesign.swift in Sources */,
+				A31CCF70EC5B47DACFBF5E193398C7AC /* FawryViewController.swift in Sources */,
+				D82595F4D491FF0366BFAB253F1C2B67 /* SelectMethodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,18 +381,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3EC0EA1D0E7C994BF971DB388FA5E55C /* PBXTargetDependency */ = {
+		5EC350B066F4AFB41690428539DBB1A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CowPay;
 			target = 2AEAB38F8CAE210F1D676B89EEBC7C45 /* CowPay */;
-			targetProxy = 27A063ECBD4E366305489A318BD2542E /* PBXContainerItemProxy */;
+			targetProxy = 04EFFFB552F231469F98799814E28BFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3E0C3970E9CCD40FFEA9CCF63614B9A8 /* Release */ = {
+		380242AAFF83446C81DCD21C0CE158BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5573E6EDAAC95A1482D1AD314519B601 /* CowPay.release.xcconfig */;
+			baseConfigurationReference = 674FE794E8796DE113F5A59642E2DBC3 /* CowPay.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -389,6 +457,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59120681DD77A4C771481A3A56E14FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8833BA9AE7C2852868CE45ABC2C95FDC /* CowPay.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CowPay/CowPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CowPay/CowPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CowPay/CowPay.modulemap";
+				PRODUCT_MODULE_NAME = CowPay;
+				PRODUCT_NAME = CowPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -561,41 +664,6 @@
 			};
 			name = Release;
 		};
-		C47321211F82D5FE60B564ECBF8A416A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1336917C908E4A1492AED3D585ACF4BB /* CowPay.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CowPay/CowPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CowPay/CowPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CowPay/CowPay.modulemap";
-				PRODUCT_MODULE_NAME = CowPay;
-				PRODUCT_NAME = CowPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,11 +685,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD06119BAB5139813F81C0EE866242F6 /* Build configuration list for PBXNativeTarget "CowPay" */ = {
+		5DB47D12DCFA36FBDCBBCD7F5A2E7914 /* Build configuration list for PBXNativeTarget "CowPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C47321211F82D5FE60B564ECBF8A416A /* Debug */,
-				3E0C3970E9CCD40FFEA9CCF63614B9A8 /* Release */,
+				59120681DD77A4C771481A3A56E14FBC /* Debug */,
+				380242AAFF83446C81DCD21C0CE158BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

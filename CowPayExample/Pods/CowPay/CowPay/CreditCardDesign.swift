@@ -11,7 +11,8 @@ import UIKit
 extension VisaViewController {
     
     func initBackBtn() {
-        btnDismiss.setImage(dismissNav ? #imageLiteral(resourceName: "cowPayClose") : #imageLiteral(resourceName: "cowPayBack"), for: .normal)
+//        btnDismiss.setImage(dismissNav ? #imageLiteral(resourceName: "cowPayClose") : #imageLiteral(resourceName: "cowPayBack"), for: .normal)
+        btnDismiss.setImage(dismissNav ? UIImage.init(named: "close", in: bundle, compatibleWith: nil) : UIImage.init(named: "back", in: bundle, compatibleWith: nil), for: .normal)
         btnDismiss.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissNavFunc)))
         view.addSubview(btnDismiss)
         
@@ -32,7 +33,8 @@ extension VisaViewController {
     }
     
     func initPowerdBy() {
-        imageViewPowerdBy.image = #imageLiteral(resourceName: "cowPayLogo")
+//        imageViewPowerdBy.image = #imageLiteral(resourceName: "cowPayLogo")
+        imageViewPowerdBy.image = UIImage.init(named: "logo", in: bundle, compatibleWith: nil)
         imageViewPowerdBy.contentMode = .scaleAspectFit
         view.addSubview(imageViewPowerdBy)
         
@@ -278,7 +280,8 @@ extension VisaViewController {
     
     func initSaveCardBtn(_ viewCVV: UIView) {
         btnSaveCard.setTitle("Save this card data", for: .normal)
-        btnSaveCard.setImage(#imageLiteral(resourceName: "cowPayNot_save"), for: .normal)
+//        btnSaveCard.setImage(#imageLiteral(resourceName: "cowPayNot_save"), for: .normal)
+        btnSaveCard.setImage(UIImage.init(named: "not_save", in: bundle, compatibleWith: nil), for: .normal)
         btnSaveCard.titleLabel!.font = UIFont.systemFont(ofSize: 18)
         btnSaveCard.titleEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 0)
         btnSaveCard.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 8)
@@ -323,7 +326,8 @@ extension VisaViewController {
         viewLoading.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
         let imageView = UIImageView()
-        imageView.image = #imageLiteral(resourceName: "cowPayVisa_loading")
+//        imageView.image = #imageLiteral(resourceName: "cowPayVisa_loading")
+        imageView.image = UIImage.init(named: "visa_loading", in: bundle, compatibleWith: nil)
         viewLoading.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -354,7 +358,8 @@ extension VisaViewController {
         viewSucess.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
         let imageView = UIImageView()
-        imageView.image = #imageLiteral(resourceName: "cowPayVisa_accepted")
+//        imageView.image = #imageLiteral(resourceName: "cowPayVisa_accepted")
+        imageView.image = UIImage.init(named: "visa_accepted", in: bundle, compatibleWith: nil)
         viewSucess.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -398,7 +403,8 @@ extension VisaViewController {
         viewError.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
         let imageView = UIImageView()
-        imageView.image = #imageLiteral(resourceName: "cowPayVisa_error")
+//        imageView.image = #imageLiteral(resourceName: "cowPayVisa_error")
+        imageView.image = UIImage.init(named: "visa_error", in: bundle, compatibleWith: nil)
         viewError.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -433,7 +439,8 @@ extension VisaViewController {
         btnRetry.setTitleColor(.SDKErrorColor, for: .normal)
         btnRetry.backgroundColor = .clear
         btnRetry.setTitle("Try again", for: .normal)
-        btnRetry.setImage(#imageLiteral(resourceName: "cowPayRepeat"), for: .normal)
+//        btnRetry.setImage(#imageLiteral(resourceName: "cowPayRepeat"), for: .normal)
+        btnRetry.setImage(UIImage.init(named: "repeat", in: bundle, compatibleWith: nil), for: .normal)
         btnRetry.titleEdgeInsets = UIEdgeInsets(top: 0, left: 4, bottom: 0, right: 0)
         btnRetry.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 4)
         btnRetry.titleLabel!.font = UIFont.systemFont(ofSize: 14.0)

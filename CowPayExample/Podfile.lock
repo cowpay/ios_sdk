@@ -1,5 +1,5 @@
 PODS:
-  - CowPay (2.3)
+  - CowPay (2.8)
 
 DEPENDENCIES:
   - CowPay
@@ -9,7 +9,7 @@ SPEC REPOS:
     - CowPay
 
 SPEC CHECKSUMS:
-  CowPay: 29913a94af936cdf14e11e7edcff905455714065
+  CowPay: fd4d9077d3cebe42c55d96cd40c257febbdafbe9
 
 PODFILE CHECKSUM: a23191e051de269742b96c9d120f24edacca8ef3
 
