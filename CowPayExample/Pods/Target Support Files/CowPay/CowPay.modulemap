@@ -1,0 +1,6 @@
+framework module CowPay {
+  umbrella header "CowPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

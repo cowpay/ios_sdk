@@ -1,0 +1,16 @@
+PODS:
+  - CowPay (2.3)
+
+DEPENDENCIES:
+  - CowPay
+
+SPEC REPOS:
+  trunk:
+    - CowPay
+
+SPEC CHECKSUMS:
+  CowPay: 29913a94af936cdf14e11e7edcff905455714065
+
+PODFILE CHECKSUM: a23191e051de269742b96c9d120f24edacca8ef3
+
+COCOAPODS: 1.10.0

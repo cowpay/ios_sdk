@@ -16,7 +16,6 @@ class SelectMethodViewController: UIViewController {
     
     var billingData = [String: String]()
     var baseUrl = ""
-    let bundle = Bundle(for: SelectMethodViewController.self)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +32,7 @@ class SelectMethodViewController: UIViewController {
     }
     
     func initDismissBtn() {
-//        btnDismiss.setImage(#imageLiteral(resourceName: "cowPayClose"), for: .normal)
-        btnDismiss.setImage(UIImage.init(named: "cowPayClose", in: bundle, compatibleWith: nil), for: .normal)
+        btnDismiss.setImage(#imageLiteral(resourceName: "cowPayClose"), for: .normal)
         btnDismiss.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissNav)))
         view.addSubview(btnDismiss)
         
@@ -70,8 +68,7 @@ class SelectMethodViewController: UIViewController {
         viewCreditCard.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         let imageView = UIImageView()
-//        imageView.image = #imageLiteral(resourceName: "cowPayVisa_list")
-        imageView.image = UIImage.init(named: "cowPayVisa_list", in: bundle, compatibleWith: nil)
+        imageView.image = #imageLiteral(resourceName: "cowPayVisa_list")
         viewCreditCard.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -122,8 +119,7 @@ class SelectMethodViewController: UIViewController {
         viewFawry.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         let imageView = UIImageView()
-//        imageView.image = #imageLiteral(resourceName: "cowPayFawry_list")
-        imageView.image = UIImage.init(named: "cowPayFawry_list", in: bundle, compatibleWith: nil)
+        imageView.image = #imageLiteral(resourceName: "cowPayFawry_list")
         viewFawry.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -165,8 +161,7 @@ class SelectMethodViewController: UIViewController {
     
     func initPowerdBy() {
         let imageView = UIImageView()
-//        imageView.image = #imageLiteral(resourceName: "cowPayLogo")
-        imageView.image = UIImage.init(named: "cowPayLogo", in: bundle, compatibleWith: nil)
+        imageView.image = #imageLiteral(resourceName: "cowPayLogo")
         imageView.contentMode = .scaleAspectFit
         view.addSubview(imageView)
         

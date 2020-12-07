@@ -23,7 +23,6 @@ class FawryViewController: UIViewController {
     var billingData = [String: String]()
     var dismissNav = false
     var baseUrl = ""
-    let bundle = Bundle(for: FawryViewController.self)
     
     override func viewDidLoad() {
         super.viewDidLoad()
