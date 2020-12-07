@@ -74,7 +74,7 @@ extension FawryViewController {
         viewLoading.bottomAnchor.constraint(equalTo: imageViewPowerdBy.topAnchor, constant: -8).isActive = true
         viewLoading.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
-        let indicator = UIActivityIndicatorView(style: .large)
+        let indicator = UIActivityIndicatorView()
         indicator.color = .white
         indicator.startAnimating()
         viewLoading.addSubview(indicator)
@@ -114,8 +114,8 @@ extension FawryViewController {
         backgroundImage.translatesAutoresizingMaskIntoConstraints = false
         backgroundImage.centerXAnchor.constraint(equalTo: viewSuccess.centerXAnchor).isActive = true
         backgroundImage.topAnchor.constraint(equalTo: viewSuccess.topAnchor, constant: 8).isActive = true
-        backgroundImage.widthAnchor.constraint(equalTo: viewSuccess.widthAnchor, multiplier: 0.75).isActive = true
-        backgroundImage.heightAnchor.constraint(equalTo: backgroundImage.widthAnchor, multiplier: 1).isActive = true
+//        backgroundImage.widthAnchor.constraint(equalTo: viewSuccess.widthAnchor, multiplier: 0.75).isActive = true
+//        backgroundImage.heightAnchor.constraint(equalTo: backgroundImage.widthAnchor, multiplier: 1).isActive = true
         
         let labelTitle = UILabel()
         labelTitle.text = "You can pay the required amount"
