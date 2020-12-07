@@ -12,7 +12,7 @@ extension FawryViewController {
     
     func initBackBtn() {
 //        btnDismiss.setImage(dismissNav ? #imageLiteral(resourceName: "cowPayClose") : #imageLiteral(resourceName: "cowPayBack"), for: .normal)
-        btnDismiss.setImage(dismissNav ? UIImage.init(named: "cowPayClose", in: bundle, compatibleWith: nil) : UIImage.init(named: "cowPayBack", in: bundle, compatibleWith: nil), for: .normal)
+        btnDismiss.setImage(dismissNav ? UIImage.init(named: "close", in: bundle, compatibleWith: nil) : UIImage.init(named: "back", in: bundle, compatibleWith: nil), for: .normal)
         btnDismiss.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissNavFunc)))
         view.addSubview(btnDismiss)
         
@@ -34,7 +34,7 @@ extension FawryViewController {
     
     func initPowerdBy() {
 //        imageViewPowerdBy.image = #imageLiteral(resourceName: "cowPayLogo")
-        imageViewPowerdBy.image = UIImage.init(named: "cowPayLogo", in: bundle, compatibleWith: nil)
+        imageViewPowerdBy.image = UIImage.init(named: "logo", in: bundle, compatibleWith: nil)
         imageViewPowerdBy.contentMode = .scaleAspectFit
         view.addSubview(imageViewPowerdBy)
         
@@ -58,7 +58,7 @@ extension FawryViewController {
     
     func initFawryImage() {
 //        imageViewFawry.image = #imageLiteral(resourceName: "cowPayFawry")
-        imageViewFawry.image = UIImage.init(named: "cowPayFawry", in: bundle, compatibleWith: nil)
+        imageViewFawry.image = UIImage.init(named: "fawry", in: bundle, compatibleWith: nil)
         view.addSubview(imageViewFawry)
         
         imageViewFawry.translatesAutoresizingMaskIntoConstraints = false
@@ -110,7 +110,7 @@ extension FawryViewController {
         
         let backgroundImage = UIImageView()
 //        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_bg")
-        backgroundImage.image = UIImage.init(named: "cowPayFawry_bg", in: bundle, compatibleWith: nil)
+        backgroundImage.image = UIImage.init(named: "fawry_bg", in: bundle, compatibleWith: nil)
         backgroundImage.isUserInteractionEnabled = true
         backgroundImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(copyCode)))
         viewSuccess.addSubview(backgroundImage)
@@ -155,7 +155,7 @@ extension FawryViewController {
         
         let imageViewCopy = UIImageView()
 //        imageViewCopy.image = #imageLiteral(resourceName: "cowPayInfo")
-        imageViewCopy.image = UIImage.init(named: "cowPayInfo", in: bundle, compatibleWith: nil)
+        imageViewCopy.image = UIImage.init(named: "info", in: bundle, compatibleWith: nil)
         viewSuccess.addSubview(imageViewCopy)
         
         imageViewCopy.translatesAutoresizingMaskIntoConstraints = false
@@ -227,7 +227,7 @@ extension FawryViewController {
         
         let backgroundImage = UIImageView()
 //        backgroundImage.image = #imageLiteral(resourceName: "cowPayFawry_error_bg")
-        backgroundImage.image = UIImage.init(named: "cowPayFawry_error_bg", in: bundle, compatibleWith: nil)
+        backgroundImage.image = UIImage.init(named: "fawry_error_bg", in: bundle, compatibleWith: nil)
         viewError.addSubview(backgroundImage)
         
         backgroundImage.translatesAutoresizingMaskIntoConstraints = false
@@ -254,7 +254,7 @@ extension FawryViewController {
         btnRetry.backgroundColor = .clear
         btnRetry.setTitle("Try again", for: .normal)
 //        btnRetry.setImage(#imageLiteral(resourceName: "cowPayRepeat"), for: .normal)
-        btnRetry.setImage(UIImage.init(named: "cowPayRepeat", in: bundle, compatibleWith: nil), for: .normal)
+        btnRetry.setImage(UIImage.init(named: "repeat", in: bundle, compatibleWith: nil), for: .normal)
         btnRetry.titleEdgeInsets = UIEdgeInsets(top: 0, left: 4, bottom: 0, right: 0)
         btnRetry.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 4)
         btnRetry.titleLabel!.font = UIFont.systemFont(ofSize: 14.0)
